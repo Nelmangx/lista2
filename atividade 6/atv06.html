@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário de Endereço</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="mb-4">Concatenação de Endereço Completo</h2>
+    <form action="atv06.php" method="POST">
+      <div class="p-4 bg-primary text-white rounded">
+        <div class="mb-3">
+          <label for="cidade" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="cidade" name="cidade" required>
+        </div>
+        <div class="mb-3">
+          <label for="bairro" class="form-label">Bairro</label>
+          <input type="text" class="form-control" id="bairro" name="bairro" required>
+        </div>
+        <div class="mb-3">
+          <label for="rua" class="form-label">Rua</label>
+          <input type="text" class="form-control" id="rua" name="rua" required>
+        </div>
+        <div class="mb-3">
+          <label for="numero" class="form-label">Número</label>
+          <input type="text" class="form-control" id="numero" name="numero" required>
+        </div>
+        <div class="mb-3">
+          <label for="quadra" class="form-label">Quadra</label>
+          <input type="text" class="form-control" id="quadra" name="quadra" required>
+        </div>
+        <button type="submit" class="btn btn-light">Gerar Endereço</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
